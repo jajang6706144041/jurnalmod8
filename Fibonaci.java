@@ -16,10 +16,11 @@ public class Fibonaci
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input: ");
 		int n = s.nextInt();
+                int hasil=0;
 		for(int i=1;i<=n;i++){
+                    //baru
                     System.out.print(fibo(i) + " ");
                 }
-			
 		System.out.println();
 	}
 
